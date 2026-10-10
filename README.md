@@ -48,3 +48,6 @@ Open `index.html` locally or publish the folder with GitHub Pages.
 - Week 2 Lesson 4: Risk-Based Prioritization & Tradeoffs marked complete (4 of 5 lessons).
 - Added Resource Prioritization & Tradeoff Decision Matrix, with engineer-day calculations, sequencing, launch gates, decision ownership and options.
 - Existing visual design and all previous lesson content retained.
+
+
+Version 13: streamlined top navigation to five links, moved individual lesson links to an expandable directory in Learning Journey, and corrected lesson count to nine.
