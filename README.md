@@ -51,3 +51,11 @@ Open `index.html` locally or publish the folder with GitHub Pages.
 
 
 Version 13: streamlined top navigation to five links, moved individual lesson links to an expandable directory in Learning Journey, and corrected lesson count to nine.
+
+
+## Version 14 update
+- Completed Week 2 Lesson 5: Program Governance & Change Control.
+- Added Change Control & Decision Governance Register with CR-006, impact assessment, options, approved decision, and follow-up dependencies.
+- Updated progress to 10 completed lessons and Week 2 complete.
+- Preserved Version 13's clean five-link navigation and expandable lesson directory.
+- All new case material is a sanitized learning simulation, not claimed employer experience.
