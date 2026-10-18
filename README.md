@@ -59,3 +59,11 @@ Version 13: streamlined top navigation to five links, moved individual lesson li
 - Updated progress to 10 completed lessons and Week 2 complete.
 - Preserved Version 13's clean five-link navigation and expandable lesson directory.
 - All new case material is a sanitized learning simulation, not claimed employer experience.
+
+
+## Version 15 update
+- Week 3 Lesson 1 complete: Technical Architecture & System Dependencies (11 of 25 lessons).
+- Added System Dependency Map and Go/No-Go Readiness Checklist for a hypothetical security telemetry migration.
+- Included throughput/bottleneck reasoning, buffering/backpressure/throttling, scale-out validation, budget and SRE gates, and a conditional GO recommendation.
+- Preserved the Version 13+ professional design and expandable lesson directory.
+- Clearly labeled new material as a learning simulation, not employer work.
