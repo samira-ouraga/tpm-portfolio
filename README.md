@@ -67,3 +67,10 @@ Version 13: streamlined top navigation to five links, moved individual lesson li
 - Included throughput/bottleneck reasoning, buffering/backpressure/throttling, scale-out validation, budget and SRE gates, and a conditional GO recommendation.
 - Preserved the Version 13+ professional design and expandable lesson directory.
 - Clearly labeled new material as a learning simulation, not employer work.
+
+
+## Version 16 update
+- Completed Week 3 Lesson 2: Technical Risk, Reliability & Failure Scenarios (12 of 25 lessons; 48%).
+- Added Reliability Risk Assessment & Incident Response Decision Framework with zone-failure risk, RTO/RPO, active-passive versus active-active tradeoffs, failover test criteria, documented risk exceptions, and pause/rollback triggers.
+- Updated the expandable learning directory and toolkit; preserved the existing Version 13+ visual design and previous lessons.
+- All new case material is a hypothetical TPM learning simulation, not actual employer experience.
