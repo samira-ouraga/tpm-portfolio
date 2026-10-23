@@ -113,3 +113,28 @@
 .artifact-status dd{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
 .artifact-outcome{border-top:1px solid var(--line);padding-top:17px;font-weight:600}
 @media(max-width:650px){.artifact-document{padding:19px}.artifact-status{grid-template-columns:1fr}.artifact-table{display:block;overflow-x:auto}.dependency-arrow{display:none}}
+
+/* v25: accessible theme toggle; light mode remains the default when saved */
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;width:38px;height:38px;margin-left:18px;border:1px solid var(--line);border-radius:50%;background:var(--panel);color:var(--ink);cursor:pointer;font:24px/1 Arial,sans-serif;transition:background .18s,border-color .18s,transform .18s}
+.theme-toggle:hover{transform:translateY(-2px);background:var(--soft)}
+.theme-toggle:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+html[data-theme="dark"]{color-scheme:dark;--ink:#f2f5fa;--text:#e1e5ec;--muted:#aab4c4;--soft:#1b2330;--panel:#19212d;--line:#354051;--blue:#83b4ff;--red:#ff7685;--shadow:0 14px 38px rgba(0,0,0,.28)}
+html[data-theme="dark"] body{background:#101721;color:var(--text)}
+html[data-theme="dark"] .nav{background:rgba(16,23,33,.96)}
+html[data-theme="dark"] nav a{color:var(--text)}
+html[data-theme="dark"] .brand,html[data-theme="dark"] h1,html[data-theme="dark"] h2,html[data-theme="dark"] h3{color:var(--ink)}
+html[data-theme="dark"] .hero{background:#101721}
+html[data-theme="dark"] .hero h1,html[data-theme="dark"] .hero h2{color:#f2f5fa}
+html[data-theme="dark"] .lesson-week,html[data-theme="dark"] .lesson-collapse,html[data-theme="dark"] .featured-case,html[data-theme="dark"] .real-case{background:var(--panel)}
+html[data-theme="dark"] .page-tile-grid a,html[data-theme="dark"] .home-shortcuts a{background:var(--panel)}
+html[data-theme="dark"] .theme-toggle{background:var(--panel);color:var(--ink)}
+html[data-theme="dark"] .minimal-home,html[data-theme="dark"] .minimal-featured{background:transparent}
+html[data-theme="dark"] .minimal-work-list a,html[data-theme="dark"] .minimal-work-list{color:var(--text)}
+html[data-theme="dark"] .lesson-week a{color:var(--text)}
+html[data-theme="dark"] .case,html[data-theme="dark"] .card,html[data-theme="dark"] .artifact-card,html[data-theme="dark"] .tool-card{background:var(--panel);color:var(--text)}
+html[data-theme="dark"] [style*="background:#fff"],html[data-theme="dark"] [style*="background: #fff"]{background:var(--panel)!important}
+html[data-theme="dark"] [style*="background:#f8fafc"],html[data-theme="dark"] [style*="background:#f5f7fa"]{background:var(--soft)!important}
+@media(max-width:700px){.theme-toggle{margin-left:auto;width:36px;height:36px}.nav{gap:8px}}
+
+html[data-theme="dark"] .section,html[data-theme="dark"] .page-intro{color:var(--text)}
+html[data-theme="dark"] a:hover{color:var(--blue)}

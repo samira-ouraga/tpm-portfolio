@@ -96,3 +96,11 @@ Homepage only: white, text-first introduction and simple links to the five dedic
 
 ## Version 22 — Portfolio-first and supporting artifacts
 The minimalist homepage now features direct links to three real-work case studies. Each case study links to its own sanitized retrospective artifact page containing a program plan, dependency map, illustrative decision log and retrospective status report. Artifact pages distinguish known outcomes from examples reconstructed for portfolio demonstration. Upload **all nine HTML files**, styles.css, and README.md to the GitHub Pages repository root.
+
+
+## Version 24
+Added Home as the first navigation tab on all pages, linking to index.html. The removed generic section-introduction sentence remains absent.
+
+
+## Version 25 — Light/dark mode
+A moon/sun icon at the far right of the navigation toggles between light and dark backgrounds on every page. The selected preference persists across navigation and later visits via localStorage; the initial appearance follows the visitor's device theme. Include `theme.js` when uploading.
