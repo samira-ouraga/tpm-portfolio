@@ -104,3 +104,7 @@ Added Home as the first navigation tab on all pages, linking to index.html. The 
 
 ## Version 25 — Light/dark mode
 A moon/sun icon at the far right of the navigation toggles between light and dark backgrounds on every page. The selected preference persists across navigation and later visits via localStorage; the initial appearance follows the visitor's device theme. Include `theme.js` when uploading.
+
+
+## Version 26 — Consistent global navigation
+Every HTML page (including artifact pages) has the identical Home, Learning, Case Studies, Experience, Toolkit, About navigation and the same theme button. The active tab reflects the page. All pages reference theme.js?v=26 and styles.css?v=26 to avoid stale cached assets. The light/dark preference is stored in localStorage. Upload **all 12 files**, including theme.js, to the repository root, replacing existing files.
