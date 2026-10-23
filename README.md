@@ -74,3 +74,25 @@ Version 13: streamlined top navigation to five links, moved individual lesson li
 - Added Reliability Risk Assessment & Incident Response Decision Framework with zone-failure risk, RTO/RPO, active-passive versus active-active tradeoffs, failover test criteria, documented risk exceptions, and pause/rollback triggers.
 - Updated the expandable learning directory and toolkit; preserved the existing Version 13+ visual design and previous lessons.
 - All new case material is a hypothetical TPM learning simulation, not actual employer experience.
+
+
+## Version 17 UI update
+The completed lesson directory now groups lessons by week in aligned columns, with numbered lesson titles and responsive layout.
+
+
+## Version 19 — Impact-led homepage and professional case studies
+- Homepage foregrounds demonstrated TPM skills in software engineering and aerospace team leadership, with three verified metrics.
+- Case Studies features three real-work examples (Azure/Kubernetes coordination, Windows Security telemetry, aerospace process improvement), organized by challenge, ownership, execution, and outcome.
+- The simulated cloud security migration is retained and explicitly separated from professional work.
+- All six pages and prior Learning content remain available. Upload all HTML files and `styles.css` to GitHub Pages root.
+
+## Version 20
+Removed the homepage statistics strip (years, team size, and rework percentage); featured case studies and content remain intact.
+
+
+## Version 21 — Minimalist homepage
+Homepage only: white, text-first introduction and simple links to the five dedicated pages. Top navigation and all other pages remain unchanged.
+
+
+## Version 22 — Portfolio-first and supporting artifacts
+The minimalist homepage now features direct links to three real-work case studies. Each case study links to its own sanitized retrospective artifact page containing a program plan, dependency map, illustrative decision log and retrospective status report. Artifact pages distinguish known outcomes from examples reconstructed for portfolio demonstration. Upload **all nine HTML files**, styles.css, and README.md to the GitHub Pages repository root.
